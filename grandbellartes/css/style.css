@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing:         border-box;
+    margin:             0;
+    padding:            0;
+}
+
+body{
+    background-image:   url("/img/home_1.png");
+    background-repeat:  no-repeat;
+    padding:            0;
+    margin:             0;
+    background-size:    cover;
+}
+
+.title{
+    color:               #C27309;
+    font-family:            'Bebas Neue';
+    font-size:              60px;
+    display:                flex;
+    justify-content:        center;
+    text-align:             center;
+    margin-top:             calc(10% - 30px);
+    padding:                .5rem;
+}
+
+.text{
+    color:                  rgb(1, 20, 37);
+    font-family:             'Montserrat';
+    width:                    90%;
+    height:                   175px;
+    background:             rgba(240, 248, 255, 0.841);
+    font-size:                24px;
+    display:                  flex;
+    justify-content:          center;
+    text-align:               center;
+    padding:                  3rem;
+    margin-top:               40%;
+    margin:                   0 auto;
+}
+
+ul{
+    list-style-type:         none;
+    color:                #83924F;
+    display:                flex;
+    justify-content:        space-between;
+    flex-direction:         row;
+    
+}
+
+ul li{
+    display:                flex;
+    align-items:            center;
+    text-align:             center;
+    margin:                 0 auto;
+    width:                  90%;
+    height:                 80px;
+    background-color:     rgba(240, 248, 255, 0.209);
+    margin-top:             1rem;
+}
+
+li a{
+    display:                flex;
+    justify-content:        center;
+    font-family:            'Montserrat';
+    font-weight:            800;
+    margin-left:            50%;
+}
+
+a:hover{
+    color:                  #C27309;
+    font-weight:               800;
+    text-decoration:           underline;
+}
+
+
+.social{
+    display:                flex;
+    justify-content:        space-evenly;
+    align-items:            center;
+    margin-top:             2rem;
+}
+
+.instagram, .facebook, .whatsapp{
+    width:                  36px;
+    height:                 36px;
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain; /* Ajustar el fondo para que quepa en pantalla */
+    }
+
+    .title {
+        font-size: 40px; /* Reducir el tamaño de fuente */
+    }
+
+    .text {
+        font-size: 18px; /* Reducir el tamaño de fuente */
+        margin-top: 20%; /* Ajustar el margen superior */
+    }
+
+    ul {
+        flex-direction: column; /* Cambiar la dirección de la lista a columna */
+        align-items: center; /* Centrar elementos en la columna */
+    }
+
+    ul li {
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+
+    li a {
+        margin-left: 0; /* Eliminar el margen izquierdo */
+    }
+
+    .social {
+        margin-top: 1rem; /* Ajustar el margen superior */
+    }
+}

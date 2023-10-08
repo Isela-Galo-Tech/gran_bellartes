@@ -1,0 +1,62 @@
+/*Title start*/
+div #about__title{
+    margin-top:         0;
+    padding:            0;
+}
+
+h1{
+    color:           #83924F;
+    display:            flex;
+    justify-content:    center;
+    text-align:         center;
+    
+    margin-top:         3rem;
+}
+
+.about__title{
+    font-size:          52px;
+    padding:            3rem;
+    margin:             0 auto;
+    font-family:        'Bebas neue';
+}
+/*Titlte end*/
+
+
+/*About start*/
+
+.main__container{
+    display:            flex;
+    justify-content:    space-evenly;
+    margin:             0 auto;
+    padding:            2em;
+}
+
+img{
+    width:              50%;
+    height:             100%;
+}
+
+.text__container{
+    position:           relative;
+    display:            flex;
+    justify-content:    center;
+    flex-wrap:          wrap;
+    flex-direction:     column;
+    margin:             1em;
+    padding:            1em;
+    text-align:         left;
+    font-size:          1.25rem;
+}
+
+p{
+    position: absolute;
+    color: #83924F;
+    top: 1em;
+}
+
+
+
+
+
+
+/*About end*/

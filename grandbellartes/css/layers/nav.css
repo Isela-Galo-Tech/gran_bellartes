@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background:     #F9F8F2;
+}
+
+.container__header{
+    margin:         0;
+    padding:        0;
+    background:  #ffffff8f;
+}
+
+
+
+ul  ,.container__header-redes{
+    display:            flex;
+    flex-direction:     row;
+    flex-wrap:          wrap;
+    justify-content:    space-evenly;
+    align-content:      center;
+    margin:             1.5rem;
+    padding:            .5rem;
+}
+
+nav .menu{
+    margin:             0;
+    padding:            0;
+    display:            flex;
+    flex-wrap:          wrap;
+    justify-content:    space-evenly;
+    
+}
+
+.menu{
+    background:       #ffffff8f;
+}
+
+li a{
+    list-style:         none;
+    font-family:       'Montserrat', sans-serif;
+    cursor:             pointer;
+}
+
+a:hover{
+    transition:        1s; 
+    color:          #F2900B;
+}
+

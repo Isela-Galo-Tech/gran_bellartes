@@ -1,0 +1,41 @@
+/*.footer__container{
+    display:            flex;
+    align-items:        center;
+    flex-wrap:          wrap;
+
+    flex-direction:     column;
+}*/
+
+
+
+.polices__containe, .contact__container,
+.find__container{
+    margin:             1em;
+    padding:            0.25em;
+    display:            flex;
+    align-items:        stretch;
+    justify-content:    space-evenly;
+    color:           #83924F;
+}
+
+.footer__btn{
+    width:             132px;
+    height:            38px;
+    background:     #C27309;
+    color:          #fff;
+    font-size:         14px;
+    border:            none;
+    border-radius:     4px;
+    cursor:           pointer;
+}
+
+.footer__btn:hover{
+    transition: 1s ease-in-out;
+    background: #83924F;
+}
+
+
+ul{
+    color: #83924F;
+    font-weight: 800;
+}
